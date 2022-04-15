@@ -1,4 +1,5 @@
 import pandas as pd
+import torch
 import sklearn
 from sklearn.utils import shuffle
 from sklearn.preprocessing import LabelEncoder
@@ -6,7 +7,7 @@ from sklearn.model_selection import train_test_split
 from torch.utils.data import Dataset, DataLoader
 
 
-def label_shuffle_data(path="/content/drive/MyDrive/ARPIX/ReliableQA/build_dataset/dataset+.csv"):
+def label_shuffle_data(path="/workspace/ARPIX/ReliableQA/build_dataset/dataset_final.csv"):
     df = pd.read_csv(path)
 
     # class 정보를 string에서 int로 변환
@@ -124,3 +125,6 @@ class TestDataset(Dataset):
 
     def __len__(self):
         return len(self.df_data)
+    
+df = label_shuffle_data()
+train, val, test = train_val_test_split(df, 0.2, 0.2)
