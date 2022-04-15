@@ -1,0 +1,36 @@
+class,fine_class,text,target
+TRS,K2E,영어로 고양이가 뭐에요?,고양이
+TRS,K2E,영어로 기린이 뭐에요?,기린
+TRS,K2E,고양이가 영어로 뭐에요?,고양이
+TRS,K2E,기린이 영어로 뭐에요?,기린
+TRS,M2E,고양이의 의미가 뭐에요?,고양이
+TRS,M2E,고양이는 무슨 뜻이에요?,고양이
+TRS,M2E,기린은 무슨 뜻이에요?,기린
+TRS,M2E,What is cat in English?,cat
+TRS,E2K,What is cat in Korean?,cat
+TRS,E2K,What does cat mean?,cat
+STC,E2E,How do you use cat in a sentence?,cat
+STC,E2E,Can you use cat in a sentence?,cat
+STC,M2E,고양이 예문 만들어 주세요.,고양이
+STC,M2E,고양이로 예문 만들어 주실 수 있나요?,고양이
+STC,M2E,기린으로 예문 만들어 주실 있어요?,기린
+PRN,E2E,How do you say cat?,cat
+PRN,M2E,고양이 발음 어떻게 해요?,고양이
+PRN,E2E,How do you say cat in English?,cat
+PRN,E2E,Can you pronounce cat?,cat
+PRN,E2E,How do you pronounce cat?,cat
+PRN,E2E,Where is the stress in cat?,cat
+PRN,M2E,고양이는 어떻게 말해요?,고양이
+PRN,M2E,기린은 어떻게 말해요?,기린
+SPL,E2E,How do you spell cat?,cat
+SPL,M2E,고양이의 철자가 뭐에요?,고양이
+SPL,M2E,고양이는 어떻게 써요?,고양이
+SPL,M2E,기린은 어떻게 써요?,기린
+RPT,E2E,"Can you repeat that, please?",RPT
+RPT,E2E,"Can you say that again, please?",RPT
+RPT,E2E,Pardon me?,RPT
+RPT,E2E,Can you repeat that?,RPT
+RPT,E2E,Can you say that again?,RPT
+RPT,K2E,다시 말해 주실 수 있나요?,RPT
+RPT,K2E,잘 못 들었어요.,RPT
+RPT,K2E,반복해 주실 수 있나요,RPT
